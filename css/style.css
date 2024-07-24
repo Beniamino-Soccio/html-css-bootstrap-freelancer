@@ -1,5 +1,4 @@
 /*utils*/
-
 .bgc-red{
     background-color: #BA4B63;
 }
@@ -15,7 +14,6 @@
 .bgc-brown{
     background-color: #CCB2A3;
 }
-
 header{
     height: 100px;
     background-color: #2C3E50;
@@ -45,21 +43,47 @@ figure{
     height: 150px;
     border: 1px dashed red;
 }
-
 .card{
     height: 300px;
     margin-bottom: 50px;
 }
-
 #about{
-    height: 800px;
+    height: 900px;
     background-color: #1ABC9C;
+    padding-top: 50px;
 }
-
 .col-about .card{
     height: 200px;
 }
-
 .col-about .download{
     height: 100px;
+}
+#contact-me{
+    height: 600px;
+    margin-top: 50px;
+}
+.lista-ul{
+    height: 250px;
+    border: 1px solid purple;
+}
+.btn-send{
+    height: 150px;
+    border: 1px dashed green;
+}
+/*footer*/
+#info{
+    height: 600px;
+    background-color: #3A546D;
+}
+.col-info .card{
+    height: 150px;
+}
+.copyright{
+    height: 100px;
+    background-color: #2C3E50;
+}
+.copyright div{
+    height: 50px;
+    width: 400px;
+    border: 1px solid rgb(255, 238, 0);
 }
