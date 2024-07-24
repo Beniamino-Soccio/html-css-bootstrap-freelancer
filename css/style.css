@@ -32,12 +32,15 @@ header{
     width: 30%;
 }
 #start-bootstrap{
-    height: 500px;
     background-color: #1ABC9C;
+    padding: 50px 0;
 }
 figure{
     height: 400px;
     border: 1px dashed red;
+}
+#portfolio{
+    padding: 50px 0;
 }
 .title{
     height: 150px;
@@ -48,9 +51,8 @@ figure{
     margin-bottom: 50px;
 }
 #about{
-    height: 900px;
+    padding: 50px 0;
     background-color: #1ABC9C;
-    padding-top: 50px;
 }
 .col-about .card{
     height: 200px;
@@ -59,8 +61,7 @@ figure{
     height: 100px;
 }
 #contact-me{
-    height: 600px;
-    margin-top: 50px;
+    padding: 50px 0;
 }
 .lista-ul{
     height: 250px;
@@ -72,7 +73,7 @@ figure{
 }
 /*footer*/
 #info{
-    height: 600px;
+    padding: 50px 0;
     background-color: #3A546D;
 }
 .col-info .card{
