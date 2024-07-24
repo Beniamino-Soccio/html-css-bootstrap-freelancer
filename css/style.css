@@ -1,3 +1,21 @@
+/*utils*/
+
+.bgc-red{
+    background-color: #BA4B63;
+}
+.bgc-green{
+    background-color: #1EA4B6;
+}
+.bgc-lightblue{
+    background-color: #1C83C1;
+}
+.bgc-blue{
+    background-color: #0E38B5;
+}
+.bgc-brown{
+    background-color: #CCB2A3;
+}
+
 header{
     height: 100px;
     background-color: #2C3E50;
@@ -22,4 +40,13 @@ header{
 figure{
     height: 400px;
     border: 1px dashed red;
+}
+.title{
+    height: 150px;
+    border: 1px dashed red;
+}
+
+.card{
+    height: 300px;
+    margin-bottom: 50px;
 }
