@@ -50,3 +50,16 @@ figure{
     height: 300px;
     margin-bottom: 50px;
 }
+
+#about{
+    height: 800px;
+    background-color: #1ABC9C;
+}
+
+.col-about .card{
+    height: 200px;
+}
+
+.col-about .download{
+    height: 100px;
+}
