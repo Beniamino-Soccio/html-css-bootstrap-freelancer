@@ -5,7 +5,26 @@
 .bg-greenwater{
    background-color: #1ABC9C; 
 }
+.bg-footer-gray{
+    background-color: #3A546D;
+}
+.bg-footer-darkgray{
+    background-color: #2C3E50;
+}
+.clr-greenwater{
+    color: #1ABC9C;
+}
 /*body*/
+ul{
+    list-style-type: none;
+    gap: 20px;
+}
+li div{
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
 .jumbo{
     width: 300px;
 }
@@ -18,38 +37,16 @@
     border-color: gray;
     border-radius: 0;
 }
-
-/* TODO togliere title*/
-.title{
-    height: 150px;
-}
-
-
-
-
-
-#contact-me{
-    padding: 50px 0;
-}
-.lista-ul{
-    height: 250px;
-    border: 1px solid purple;
-}
-.btn-send{
-    height: 150px;
-    border: 1px dashed green;
+.col-footer-bot{
+    height: 80px;
 }
 /*footer*/
-#info{
-    padding: 50px 0;
-    background-color: #3A546D;
-}
 .col-info .card{
     height: 150px;
 }
 .copyright{
     height: 100px;
-    background-color: #2C3E50;
+    
 }
 .copyright div{
     height: 50px;
