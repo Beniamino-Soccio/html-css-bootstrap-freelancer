@@ -13,6 +13,12 @@
     margin-bottom: 40px;
 }
 
+#contact-me .form-control{
+    border-width: 0 0 1px 0;
+    border-color: gray;
+    border-radius: 0;
+}
+
 /* TODO togliere title*/
 .title{
     height: 150px;
