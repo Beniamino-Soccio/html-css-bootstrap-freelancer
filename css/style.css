@@ -53,3 +53,32 @@ li div{
     width: 400px;
     border: 1px solid rgb(255, 238, 0);
 }
+/*divisore*/
+.fa-star{
+    font-size: 24px;
+    position: relative;
+    top: -2px;
+}
+.star-divider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.star-divider::after, .star-divider::before{
+    content: "";
+    display: inline-block;
+    background-color: #fff;
+    height: 2px;
+    margin: 0 10px;
+    width: 100px;
+}
+.star-divider.dark{
+    color: black;
+}
+.star-divider.dark::after, .star-divider.dark::before{
+    background-color: black;   
+}
+.star-divider.longer::after, .star-divider.longer::before{
+    width: 150px;
+}
